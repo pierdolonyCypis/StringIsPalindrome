@@ -11,7 +11,6 @@ public class Palindrome {
               String isPalindrome = new StringBuffer(input).reverse().toString();
 
               if (input.length() != 5) {
-                  ghghgh
                   throw new RuntimeException("СЛОВО НЕ З 5 БУКВ!!!");
               }
               if (isPalindrome.equalsIgnoreCase(input)) {
